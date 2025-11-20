@@ -1,0 +1,125 @@
+body {
+    font-family: sans-serif;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    margin: 0;
+    background-color: #f0f0f0;
+}
+
+h1 {
+    font-size: 2em;
+    margin-bottom: 10px;
+    color: #333;
+}
+
+#fecha {
+    font-size: 1.2em;
+    margin-bottom: 20px;
+    color: #666;
+}
+
+.container {
+    background-color: white;
+    padding: 30px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    width: 300px;
+}
+
+.container a {
+    text-decoration: none;
+    color: #007bff;
+    margin-bottom: 10px;
+    display: block;
+    text-align: left;
+}
+
+.container p {
+    margin-bottom: 10px;
+    color: #333;
+    text-align: center;
+}
+
+input[type="number"] {
+    padding: 10px;
+    margin-bottom: 20px;
+    border: 2px solid #007bff;
+    border-radius: 5px;
+    width: 90%;
+    box-sizing: border-box;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.container .botones {
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+}
+
+.container .botones button {
+    background-color: #007bff; /* Color azul original */
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 8px;
+    font-size: 16px;
+    cursor: pointer;
+    margin: 0 5px;
+    display: inline-block;
+    transition: all 0.3s ease;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.container .botones button.salida {
+    background-color: #dc3545;
+    border: 2px solid #dc3545;
+}
+
+.container .botones button.salida:hover { /* Hover para el botón SALIDA */
+    background-color: #c82333;
+    transform: translateY(-3px);
+    box-shadow: 0 6px 8px rgba(0, 0, 0, 0.2);
+}
+
+.container .botones button:not(.salida):hover { /* Hover para el botón ENTRADA */
+    transform: translateY(-3px);
+    box-shadow: 0 6px 8px rgba(0, 0, 0, 0.2);
+}
+
+#scanButton {
+    background-color: #800080;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 8px;
+    font-size: 16px;
+    cursor: pointer;
+    margin: 20px auto;
+    display: block;
+    transition: all 0.3s ease;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+#scanButton:hover {
+    background-color: #6a006a;
+    transform: translateY(-3px);
+    box-shadow: 0 6px 8px rgba(0, 0, 0, 0.2);
+}
+
+#scanButton i {
+    margin-right: 8px;
+}
+
+#txtdni {
+    display: block;
+    margin: 10px auto;
+    padding: 8px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    width: 200px;
+}
