@@ -1,3 +1,8 @@
-*.js linguist-vendored
-*.css linguist-vendored
-*.html linguist-vendored
+bootstrap4/* linguist-vendored
+bootstrap5/* linguist-vendored
+fontawesome/* linguist-vendored
+chart/* linguist-vendored
+css/* linguist-vendored
+estilos/* linguist-vendored
+js/* linguist-vendored
+loader/* linguist-vendored
