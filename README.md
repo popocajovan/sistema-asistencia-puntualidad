@@ -8,3 +8,4 @@ Sistema creado en PHP, para tener un control de la asistencia y puntualidad de l
 Es importante colocar el correo, debido a que en este formato es como se envian el código QR para que inicien sesión los empleados. 
 <img width="1519" height="627" alt="Captura de pantalla 2025-11-19 204253" src="https://github.com/user-attachments/assets/d5cbadaf-2839-42ac-a21a-7bd05a94c529" />
 Correo enviado por el programa. 
+
