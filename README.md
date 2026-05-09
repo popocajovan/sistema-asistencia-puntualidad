@@ -29,7 +29,7 @@ Sistema web desarrollado en **PHP** para el control de asistencia y puntualidad 
 | Capa | Tecnología |
 |------|-----------|
 | Backend | PHP (patrón MVC) |
-| Base de datos | MySQL / MariaDB |
+| Base de datos | MySQL |
 | Frontend | HTML, CSS, Bootstrap |
 | Gráficas | C3.js / D3.js |
 | Tablas | DataTables, Bootstrap Table |
